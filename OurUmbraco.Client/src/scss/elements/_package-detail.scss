@@ -220,7 +220,21 @@
 	
 	.versions {
 		margin-bottom: 1rem;
+		
+		.untested { color: rgba($color-light, 0.8); }
+		.superUnhappy { color: $color-red; }
+		.happy { color: $color-green; }
+		.joyous {
+			color: $color-green;
+			font-weight: bold;
+			
+			&::after {
+				content: "√";
+				margin-left: 1em;
+			}
+		}
 	}
+	
 
 	span {
 		display: block;
