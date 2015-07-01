@@ -20,7 +20,7 @@ The `/src/css` directory is most likely to be completely removed since regular C
 But, we have been thinking about removing it completely from the project and only stick with the `src/scss` directory.
 
 
-## Constribution
+## Contribution
 
 If you discover a bug or have an enhancement, drop and [issue](http://issues.umbraco.org/issues) and a pull-request to the master branch and we'll have a look at it.
 
